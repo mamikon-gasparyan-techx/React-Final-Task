@@ -1,0 +1,21 @@
+:root {
+  --color-btn-bg: oklch(64.6% 0.222 264.376);
+}
+
+.ent-feature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.amount {
+  color: var(--color-btn-bg);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.feature-txt {
+  opacity: 0.5;
+  margin: 0;
+}

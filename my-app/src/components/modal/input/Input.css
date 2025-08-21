@@ -1,0 +1,26 @@
+:root {
+  --color-shadow-black: rgba(0, 0, 0, 0.2);
+  --text-color: black;
+}
+
+.input {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 1px 3px var(--color-shadow-black);
+  min-width: 400px;
+  padding: 10px;
+  margin:0;
+}
+
+.input-purpose {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+}
+
+.p {
+  margin: 0;
+  color: var(--text-color);
+}

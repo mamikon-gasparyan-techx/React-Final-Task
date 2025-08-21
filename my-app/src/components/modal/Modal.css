@@ -1,0 +1,41 @@
+.modal-backdrop {
+  background-color: var(--color-transparent);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.modal {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  left: 35%;
+  position: fixed;
+  top: 20%;
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0 20px;
+  padding: 10px;
+}
+
+.close-modal {
+  opacity: 0.5;
+  background: none;
+  text-align: end;
+  padding: 0;
+}
+
+.signin-btn {
+  background-color: var(--color-blue);
+  color: var(--background-color);
+  margin: 10px 0 0;
+}

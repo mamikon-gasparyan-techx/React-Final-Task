@@ -1,0 +1,34 @@
+:root {
+  --color-btn-bg: oklch(64.6% 0.222 264.376);
+  --color-btn-text: white;
+}
+
+.welcome-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 50px;
+}
+
+.welcome-message {
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.message {
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.create-quiz {
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  display: flex;
+  gap: 15px;
+  width: 160px;
+}

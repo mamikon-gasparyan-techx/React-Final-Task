@@ -1,0 +1,27 @@
+.cards {
+  padding: 50px;
+}
+
+.cards-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 50px;
+}
